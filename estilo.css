@@ -1,0 +1,135 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/*contenedor Principal*/
+main{
+  width:900px;
+  height: 800px;
+  margin: 30px auto;
+  padding:20px;
+  border: #3ec25a 1px solid;
+  background-color: #fff;
+  
+
+}
+/*Cabecera principal*/
+.cabecera{
+  height: 75px;
+  padding:10px;
+  background-color: rgba(184, 179, 179, 0.521);
+}
+body{
+  background-color:rgb(255, 222, 173);
+}
+nav{ 
+  height: 40px;
+
+  }
+.menu{
+  margin-left: 60%; /*alineacion izquierda al medio del contenedor nav*/  
+  margin-top: 0.5em;
+  
+  }
+.menu li{
+   display:inline; /*cambiar la presentacion de bloque por defecto a en linea*/   
+}
+/*propiedades del enlace (etiqueta a)*/
+.menu li a{  
+  font-size: 20px;
+  padding:5px;  
+  border-radius:5px 5px 0px 0px;
+  background-color:#000;
+  color: #fff; 
+  text-decoration: none;
+  border-radius: 7px;
+  
+
+  }
+  .menu li a:hover{
+    background-color:darkorange;
+    color: #000;
+    
+
+  }
+
+  
+.imagen{
+  width:100px;
+  float:left;
+  margin:5px 20px;
+}
+  
+article{
+ height: 500px;
+  width: 49%;
+  float:left;
+}
+h1{
+  background-color: rgba(238, 106, 18, 0.932);
+  text-align: center;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 7px;
+  height: 24px;
+}
+h2{
+  background-color:rgb(30, 30, 216);
+  text-align: center;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 23px;
+
+}
+h3{
+  background-color:rgba(199, 202, 5, 0.781);
+  text-align: center;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 7px;
+  height: 24px;
+}
+h4{
+  background-color:rgba(78, 21, 80, 0.568);
+  text-align: center;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px;
+  margin: 22px;
+}
+
+aside{
+  height: 500px; 
+  margin-left:51%;
+  }
+footer{
+    height: 100px;
+    clear:both;
+    background-color: #838a855e;
+
+  }
+footer div{
+    float: left;
+    
+          
+  }
+.redes{
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+  }
+b1{
+  color: rgb(255, 0, 0);
+}
+b2{
+  color: rgb(219, 48, 219);
+}
+b3{
+  background-color: rgba(79, 161, 238, 0.973);
+  color: #fff;
+}
+b5{
+  background-color: black;
+  color: #fff;
+}
